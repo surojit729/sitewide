@@ -1,7 +1,11 @@
 /* Responsive */
 @media (min-width: 1800px) {
 	.banner-content-outer h1 {
-		font-size: 70px;
+		font-size: 65px;
+	}
+
+	.banner-wrapper {
+		padding: 280px 0;
 	}
 }
 
@@ -172,9 +176,9 @@
 
 	.mobile_menu_active .menu_trigger {
 		right: 20px;
-		top: 55px;
+		/* top: 55px; */
 		transform: none;
-		position: fixed;
+		/* position: fixed; */
 	}
 
 	.mobile_menu_active .hdr_menu {
@@ -527,5 +531,29 @@
 
 	.footer-bottom-row {
 		margin-top: 50px;
+	}
+
+	.aboutUsWrapper::before {
+		display: none;
+	}
+
+	.serviceBenefitsWrapper .section-heading {
+		margin-bottom: 30px;
+	}
+
+	.BenefitsPic {
+		margin-bottom: 30px;
+	}
+
+	.benefitsList .listItem h3 {
+		font-size: 21px;
+	}
+
+	.serviceListCard h3 {
+		font-size: 20px;
+	}
+
+	.ctaWrapper .section-heading {
+		text-align: center;
 	}
 }
