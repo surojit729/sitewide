@@ -1,5 +1,9 @@
 /* Responsive */
-@media (min-width: 1800px) {}
+@media (min-width: 1800px) {
+	.banner-content-outer h1 {
+		font-size: 70px;
+	}
+}
 
 @media (max-width: 1199px) {}
 
@@ -140,7 +144,7 @@
 	.menu_btn span {
 		height: 2px;
 		display: block;
-		background: #ef6130;
+		background: #00266f;
 		margin-left: auto;
 		transition: 0.4s;
 	}
@@ -188,7 +192,7 @@
 	}
 
 	.mobile_menu_active .menu_btn span {
-		background: #ed1b23;
+		background: #00266f;
 	}
 
 	.mobile_menu_active .menu_btn span:first-child {
@@ -235,7 +239,7 @@
 
 	.responisve-logo {
 		display: block;
-		width: 170px;
+		width: 280px;
 	}
 
 	.header-social-list-outer {
@@ -298,6 +302,47 @@
 		display: none;
 	}
 
+	.banner-wrapper {
+		padding: 200px 0 350px;
+	}
+
+	.header-cta-btn {
+		margin-right: 50px;
+	}
+
+	.banner-content-outer .listData {
+		flex-wrap: wrap;
+	}
+
+	.aboutUsWrapper .aboutPic,
+	.partnershipWrapper .pic,
+	.whyUsWrapper .pic {
+		position: static;
+		width: 100%;
+		margin-bottom: 35px;
+	}
+
+	.aboutUsWrapper,
+	.partnershipWrapper,
+	.whyUsWrapper {
+		padding: 50px 0;
+	}
+
+	.whyUsWrapper {
+		padding-top: 0;
+	}
+
+	.aboutData,
+	.partnershipWrapper .section-heading,
+	.whyUsWrapper .section-heading {
+		padding: 0;
+		max-width: 100%;
+		margin-left: auto;
+	}
+
+	.whyUsWrapper .section-heading p {
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 767px) {
@@ -319,7 +364,8 @@
 		font-size: 32px;
 	}
 
-	.section-heading h2 {
+	.section-heading h2,
+	.whyUsWrapper .section-heading h2 {
 		font-size: 28px;
 		margin-bottom: 15px;
 	}
@@ -329,8 +375,6 @@
 		font-size: 20px;
 		margin-bottom: 25px;
 	}
-
-
 
 	.banner-content-outer .btn {
 		min-width: auto;
@@ -390,7 +434,7 @@
 	}
 
 	.logo {
-		width: 160px;
+		width: 260px;
 	}
 
 	.headerLeftBtn .btn {
@@ -403,12 +447,85 @@
 	}
 
 	.sticky .logo {
-		width: 150px;
+		width: 230px;
 	}
 
 	.top-header-outer {
 		display: none;
 	}
 
+	.header-cta-btn {
+		display: none;
+	}
 
+	.banner-wrapper {
+		padding: 90px 0;
+	}
+
+	.banner-form-wrapper {
+		position: static;
+		padding: 20px 15px;
+		border-radius: 10px;
+		width: 100%;
+		transform: none;
+		margin-top: 35px;
+	}
+
+	.banner-content-outer .listItem p {
+		font-size: 18px;
+		margin: 0;
+	}
+
+	.banner-content-outer .listItem figure {
+		transform: scale(0.6);
+		transform-origin: center right;
+	}
+
+	.banner-content-outer .listData {
+		gap: 0;
+		margin-top: 30px;
+	}
+
+	.banner-form-wrapper .form-title p {
+		text-align: center;
+	}
+
+	.serviceListWrapper .section-heading {
+		margin: 0 auto 40px;
+	}
+
+	.serviceListCard {
+		min-height: auto;
+	}
+
+	.serviceListCard figure {
+		min-height: auto;
+		max-width: 50px;
+		margin-bottom: 15px;
+	}
+
+	.serviceListCard a h3 {
+		font-size: 18px;
+	}
+
+	.whyUsWrapper .section-heading .btn {
+		margin-top: 0;
+	}
+
+	.ctaWrapper {
+		padding: 50px 0;
+	}
+
+	.footer-top-row>[class*="col-"]:last-child ul {
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+
+	.footer-top-row>[class*="col-"] {
+		padding: 40px 15px 0;
+	}
+
+	.footer-bottom-row {
+		margin-top: 50px;
+	}
 }
